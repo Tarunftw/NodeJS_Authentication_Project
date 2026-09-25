@@ -8,9 +8,9 @@ import { v2 as cloudinary } from 'cloudinary';
 
     // Configuration
     cloudinary.config({ 
-        cloud_name: 'dek7axa0r', 
-        api_key: '176767264214584', 
-        api_secret: 'BLbnBfVrSbLSJr1GmzGfT3lP2L8' 
+        cloud_name: 'None', 
+        api_key: 'None', 
+        api_secret: 'None' 
     });
 
 const app = express();
@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}))
 
 mongoose
   .connect(
-    "mongodb+srv://attellitarun:O4G5TYxSm95IcEcL@cluster0.ywwrd.mongodb.net/",
+    "mongodb+srv://attellitarun: Password EcL@cluster0.ywwrd.mongodb.net/",
     { dbName: "NodeJs_Authentication" }
   )
   .then(() => console.log("Mongodb Connected", "\n"))
